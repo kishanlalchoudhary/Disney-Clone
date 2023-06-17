@@ -3,7 +3,7 @@ import Axios from "../api/axios";
 import PropTypes from "prop-types";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
-const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/original";
+const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/original/";
 const screenWidth = window.innerWidth;
 
 const MovieList = (props) => {
