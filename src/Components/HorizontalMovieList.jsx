@@ -46,14 +46,13 @@ const HorizontalMovieList = (props) => {
         ref={elementRef}
       >
         {movielist.map((movie) => (
-          <div
-            key={movie.id}
-            className="min-w-[165px] md:min-w-[300px] min-h-[92.813px] md:min-h-[168.750px] group"
-          >
-            <img
-              src={IMAGE_BASE_URL + movie.backdrop_path}
-              className="rounded-lg hover:border-[3px] border-gray-400 group-hover:scale-110 transition-all duration-150 ease-in cursor-pointer shadow-md shadow-black"
-            />
+          <div key={movie.id} className="group">
+            <div className="min-w-[165px] md:min-w-[300px] min-h-[92.813px] md:min-h-[168.750px] shadow-md shadow-black">
+              <img
+                src={IMAGE_BASE_URL + movie.backdrop_path}
+                className="rounded-lg hover:border-[3px] border-gray-400 group-hover:scale-110 transition-all duration-150 ease-in cursor-pointer "
+              />
+            </div>
             <h2 className="text-white pt-4 text-md group-hover:scale-110 transition-all duration-150 ease-in cursor-pointer">
               {movie.original_title}
             </h2>
