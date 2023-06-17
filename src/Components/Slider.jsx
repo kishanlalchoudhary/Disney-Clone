@@ -21,12 +21,12 @@ const Slider = () => {
 
   const sliderLeft = (element) => {
     console.log("left");
-    element.scrollLeft -= screenWidth - 64 - 64 + 32;
+    element.scrollLeft -= screenWidth - 64 - 64 + 16;
   };
 
   const sliderRight = (element) => {
     console.log("right");
-    element.scrollLeft += screenWidth - 64 - 64 + 32;
+    element.scrollLeft += screenWidth - 64 - 64 + 16;
   };
 
   return (
@@ -42,14 +42,14 @@ const Slider = () => {
         />
       </div>
       <div
-        className="text-white flex overflow-x-auto w-full px-6 md:px-16 py-0 md:py-4 scrollbar-none scroll-smooth"
+        className="text-white flex overflow-x-auto w-full px-5 md:px-16 py-2 md:py-4 scrollbar-none scroll-smooth gap-5 md:gap-8"
         ref={elementRef}
       >
         {movieList.map((movie) => (
           <img
-            src={IMAGE_BASE_URL + movie.backdrop_path}
             key={movie.id}
-            className="min-w-full h md:h-[310px] object-cover mr-8 rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in"
+            src={IMAGE_BASE_URL + movie.backdrop_path}
+            className="w-11/12 md:min-w-full h md:h-[310px] object-cover object-top rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in shadow-md shadow-black"
           />
         ))}
       </div>

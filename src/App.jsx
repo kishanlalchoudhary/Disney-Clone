@@ -1,4 +1,5 @@
 import "./App.css";
+import GenreMovieList from "./Components/GenreMovieList";
 
 // Components
 import Header from "./Components/Header";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Slider />
       <ProductionHouse />
+      <GenreMovieList />
     </>
   );
 }

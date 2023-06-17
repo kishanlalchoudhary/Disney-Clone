@@ -40,7 +40,7 @@ const ProductionHouse = () => {
   ];
   return (
     <>
-      <div className="flex gap-2 md:gap-7 py-5 md:py-3 px-5 md:px-16">
+      <div className="flex gap-2 md:gap-7 pt-10 md:pt-6 pb-5 px-5 md:px-16">
         {productionHouseList.map((item) => (
           <div
             key={item.id}
