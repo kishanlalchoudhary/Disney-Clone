@@ -19,10 +19,10 @@ const genres = [
     id: 80,
     name: "Crime",
   },
-  {
-    id: 99,
-    name: "Documentary",
-  },
+  // {
+  //   id: 99,
+  //   name: "Documentary",
+  // },
   {
     id: 18,
     name: "Drama",
@@ -51,10 +51,10 @@ const genres = [
     id: 9648,
     name: "Mystery",
   },
-  {
-    id: 10749,
-    name: "Romance",
-  },
+  // {
+  //   id: 10749,
+  //   name: "Romance",
+  // },
   {
     id: 878,
     name: "Science Fiction",
