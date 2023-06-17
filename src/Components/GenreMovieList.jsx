@@ -1,6 +1,6 @@
 import genres from "../constant/GenresList";
-import HorizontalMovieList from "./horizontalMovieList";
-import VerticalMovieList from "./verticalMovieList";
+import HorizontalMovieList from "./HorizontalMovieList";
+import VerticalMovieList from "./VerticalMovieList";
 
 const GenreMovieList = () => {
   return (
