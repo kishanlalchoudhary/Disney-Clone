@@ -6,3 +6,4 @@ This repository showcases a clone of Disney+ homepage built using React, Tailwin
 - Dynamic content with TMDB API integration
 - Interactive UI with engaging animations
 - Cross-device compatibility
+- Vercel hosting for reliability
