@@ -12,7 +12,7 @@ This repository showcases a clone of Disney+ homepage built using React, Tailwin
 
 ## Getting Started
 
-- Clone the repository: `git clone https://github.com/your-username/disney-plus-clone.git`
+- Clone the repository: `git clone https://github.com/kishanlalchoudhary/Disney-Clone.git`
 - Change to the project directory: `cd Disney-Clone`
 - Install the dependencies: `npm install`
 - Set up TMDB API: Obtain an Authentication Token from the TMDB website and add it to the `.env` file.
@@ -20,9 +20,9 @@ This repository showcases a clone of Disney+ homepage built using React, Tailwin
 - Open the website in your browser: `http://localhost:3000`
 
 ## Technologies Used
-- React: JavaScript library for building user interfaces.
-- Tailwind CSS: Utility-first CSS framework for rapid UI development.
-- Vite: Fast development build tool.
-- Axios: Promise-based HTTP client for making API requests.
-- TMDB API: The Movie Database API for accessing movie and TV show data.
-- Vercel: Cloud platform for hosting web applications.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Vite**: Fast development build tool.
+- **Axios**: Promise-based HTTP client for making API requests.
+- **TMDB API**: The Movie Database API for accessing movie and TV show data.
+- **Vercel**: Cloud platform for hosting web applications.
