@@ -47,6 +47,7 @@ const Slider = () => {
       >
         {movieList.map((movie) => (
           <img
+            loading="lazy"
             key={movie.id}
             src={IMAGE_BASE_URL + movie.backdrop_path}
             className="w-11/12 md:min-w-full h md:h-[310px] object-cover object-top rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in shadow-md shadow-black"

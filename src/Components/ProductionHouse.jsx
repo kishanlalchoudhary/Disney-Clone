@@ -54,7 +54,11 @@ const ProductionHouse = () => {
               muted
               className="absolute top-0 rounded-md md:rounded-lg -z-10 opacity-0 group-hover:opacity-75"
             />
-            <img src={item.image} className="w-full relative z-10" />
+            <img
+              loading="lazy"
+              src={item.image}
+              className="w-full relative z-10"
+            />
           </div>
         ))}
       </div>

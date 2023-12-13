@@ -51,6 +51,7 @@ const MovieList = (props) => {
             className="min-w-[110px] md:min-w-[200px] min-h-[165] md:min-h-[300px] shadow-md shadow-black"
           >
             <img
+              loading="lazy"
               src={IMAGE_BASE_URL + movie.poster_path}
               className="rounded-lg hover:border-[3px] border-gray-400 hover:scale-110 transition-all duration-150 ease-in cursor-pointer"
             />

@@ -49,6 +49,7 @@ const HorizontalMovieList = (props) => {
           <div key={movie.id} className="group">
             <div className="min-w-[165px] md:min-w-[300px] min-h-[92.813px] md:min-h-[168.750px] shadow-md shadow-black">
               <img
+                loading="lazy"
                 src={IMAGE_BASE_URL + movie.backdrop_path}
                 className="rounded-lg hover:border-[3px] border-gray-400 group-hover:scale-110 transition-all duration-150 ease-in cursor-pointer "
               />
