@@ -1,6 +1,10 @@
 # Disney-Clone
 This repository showcases a clone of Disney+ homepage built using React, Tailwind CSS, Vite, Axios, and the TMDB API. With the power of React, the flexibility of Tailwind CSS, and the fast development workflow of Vite, this clone offers a visually stunning and user-friendly interface. Hosted on Vercel, the website is easily accessible and delivers an immersive streaming experience.
 
+## Screenshot
+
+![Screenshot (690)](https://github.com/kishanlalchoudhary/Disney-Clone/assets/107745828/77e2d451-e325-4989-91ac-54e922bd070e)
+
 ## Features
 
 - **Responsive Navbar**: The website features a responsive navbar that adapts to different screen sizes, ensuring a seamless browsing experience on various devices.
