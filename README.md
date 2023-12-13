@@ -6,6 +6,7 @@ This repository showcases a clone of Disney+ homepage built using React, Tailwin
 - **Responsive Navbar**: The website features a responsive navbar that adapts to different screen sizes, ensuring a seamless browsing experience on various devices.
 - **Responsive Sliders**: Horizontal sliders are implemented, providing a dynamic and engaging way to showcase different genre movies.
 - **Dynamic Content with TMDB API**: The clone integrates with the TMDB API to fetch and display real-time data, ensuring that the content is up to date and accurate.
+- **Lazy-Loaded Images**: The website optimizes loading times by incorporating lazy loading for images. This technique defers the loading of images until they are about to be displayed, reducing initial page load times and improving overall performance, especially on pages with extensive image content. This feature enhances the user experience by providing a faster and more efficient browsing experience.
 - **Interactive UI with Engaging Animations**: The user interface is designed to be interactive and engaging, with animations that enhance the overall user experience.
 - **Cross-Device Compatibility**: The clone is built with responsiveness in mind, allowing users to access and enjoy the website on a wide range of devices, including desktops, tablets, and mobile phones.
 - **Vercel Hosting**: The website is hosted on Vercel, ensuring reliable performance and availability for users.
