@@ -15,6 +15,14 @@ This repository features a clone of Disney+'s home. Built with modern tools and 
 - **Cross-Device Compatibility:** Built for accessibility across desktops, tablets, and mobile phones.
 - **Vercel Hosting:** Hosted on Vercel for reliable performance and availability.
 
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Vite**: Fast development build tool.
+- **Axios**: Promise-based HTTP client for making API requests.
+- **TMDB API**: The Movie Database API for accessing movie and TV show data.
+- **Vercel**: Cloud platform for hosting web applications.
+
 ## Getting Started
 
 - Clone the repository: `git clone https://github.com/kishanlalchoudhary/Disney-Clone.git`
@@ -23,11 +31,3 @@ This repository features a clone of Disney+'s home. Built with modern tools and 
 - Set up TMDB API: Obtain an Authentication Token from the TMDB website and add it to the `.env` file.
 - Start the development server: `npm run dev`
 - Open the website in your browser: `http://localhost:3000`
-
-## Technologies Used
-- **React**: JavaScript library for building user interfaces.
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **Vite**: Fast development build tool.
-- **Axios**: Promise-based HTTP client for making API requests.
-- **TMDB API**: The Movie Database API for accessing movie and TV show data.
-- **Vercel**: Cloud platform for hosting web applications.
